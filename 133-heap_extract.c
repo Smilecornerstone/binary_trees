@@ -64,7 +64,6 @@ void recurse_extract(heap_t *tree)
  *
  * Return: The node with the maximum value.
  */
-
 heap_t *max(heap_t *tree)
 {
 	heap_t *curr_max, *left_max, *right_max;
