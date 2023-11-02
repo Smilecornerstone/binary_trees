@@ -8,6 +8,7 @@
  * @array: The array to be printed
  * @size: Number of elements in @array
  */
+
 void print_array(const int *array, size_t size)
 {
 	size_t i;
@@ -28,6 +29,7 @@ void print_array(const int *array, size_t size)
  *
  * Return: 0 on success, error code on failure
  */
+
 int main(void)
 {
 	heap_t *tree;
